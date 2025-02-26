@@ -11,7 +11,7 @@ void* linearAllocAllocate(linearAllocator* linearAlloc, unsigned long long size)
 void linearAllocReset(linearAllocator* linearAlloc);
 void linearAllocDestroy(linearAllocator* linearAlloc);
 
-#ifdef LINEAR_ALLOCATOR_IMPLEMENTION 
+#ifdef LINEAR_ALLOCATOR_IMPLEMENTATION 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
